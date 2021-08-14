@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C8F89AB26C8099F00DDBDA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89AA26C8099F00DDBDA8 /* MainViewController.swift */; };
+		8C8F89B626C80B8600DDBDA8 /* NSObjectProtocol+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89B526C80B8600DDBDA8 /* NSObjectProtocol+.swift */; };
+		8C8F89C726C80C0000DDBDA8 /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89C626C80C0000DDBDA8 /* BlackView.swift */; };
+		8C8F89CC26C80D8200DDBDA8 /* DarkGrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89CB26C80D8200DDBDA8 /* DarkGrayView.swift */; };
+		8C8F89D726C80D9900DDBDA8 /* LightGrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89D626C80D9900DDBDA8 /* LightGrayView.swift */; };
+		8C8F89E426C80FD700DDBDA8 /* OrangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89E326C80FD700DDBDA8 /* OrangeView.swift */; };
+		8C8F89E926C8104700DDBDA8 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89E826C8104700DDBDA8 /* RedView.swift */; };
+		8C8F89F326C8109500DDBDA8 /* PinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F89F226C8109500DDBDA8 /* PinkView.swift */; };
 		8CB0678C25C934FA0045AEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0678B25C934FA0045AEE6 /* AppDelegate.swift */; };
 		8CB0678E25C934FA0045AEE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0678D25C934FA0045AEE6 /* SceneDelegate.swift */; };
 		8CB0679325C934FA0045AEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0679125C934FA0045AEE6 /* Main.storyboard */; };
@@ -14,9 +22,6 @@
 		8CB0679825C934FC0045AEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0679625C934FC0045AEE6 /* LaunchScreen.storyboard */; };
 		8CB067A325C934FD0045AEE6 /* LifeCycleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB067A225C934FD0045AEE6 /* LifeCycleDemoTests.swift */; };
 		8CB067AE25C934FD0045AEE6 /* LifeCycleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB067AD25C934FD0045AEE6 /* LifeCycleDemoUITests.swift */; };
-		8CB067C225C9356A0045AEE6 /* NextViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB067C125C9356A0045AEE6 /* NextViewController1.swift */; };
-		8CB067D025C936270045AEE6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB067CF25C936270045AEE6 /* StartViewController.swift */; };
-		8CB067DB25C939050045AEE6 /* NextViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB067DA25C939050045AEE6 /* NextViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C8F89AA26C8099F00DDBDA8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8C8F89B526C80B8600DDBDA8 /* NSObjectProtocol+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+.swift"; sourceTree = "<group>"; };
+		8C8F89C626C80C0000DDBDA8 /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
+		8C8F89CB26C80D8200DDBDA8 /* DarkGrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkGrayView.swift; sourceTree = "<group>"; };
+		8C8F89D626C80D9900DDBDA8 /* LightGrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightGrayView.swift; sourceTree = "<group>"; };
+		8C8F89E326C80FD700DDBDA8 /* OrangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeView.swift; sourceTree = "<group>"; };
+		8C8F89E826C8104700DDBDA8 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		8C8F89F226C8109500DDBDA8 /* PinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkView.swift; sourceTree = "<group>"; };
 		8CB0678825C934FA0045AEE6 /* LifeCycleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeCycleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0678B25C934FA0045AEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB0678D25C934FA0045AEE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,9 +63,6 @@
 		8CB067A925C934FD0045AEE6 /* LifeCycleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB067AD25C934FD0045AEE6 /* LifeCycleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemoUITests.swift; sourceTree = "<group>"; };
 		8CB067AF25C934FD0045AEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CB067C125C9356A0045AEE6 /* NextViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController1.swift; sourceTree = "<group>"; };
-		8CB067CF25C936270045AEE6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		8CB067DA25C939050045AEE6 /* NextViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C8F89BA26C80BA200DDBDA8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F89B526C80B8600DDBDA8 /* NSObjectProtocol+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		8CB0677F25C934FA0045AEE6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +123,18 @@
 			children = (
 				8CB0678B25C934FA0045AEE6 /* AppDelegate.swift */,
 				8CB0678D25C934FA0045AEE6 /* SceneDelegate.swift */,
-				8CB067CF25C936270045AEE6 /* StartViewController.swift */,
-				8CB067C125C9356A0045AEE6 /* NextViewController1.swift */,
-				8CB067DA25C939050045AEE6 /* NextViewController2.swift */,
+				8C8F89AA26C8099F00DDBDA8 /* MainViewController.swift */,
 				8CB0679125C934FA0045AEE6 /* Main.storyboard */,
+				8C8F89C626C80C0000DDBDA8 /* BlackView.swift */,
+				8C8F89CB26C80D8200DDBDA8 /* DarkGrayView.swift */,
+				8C8F89D626C80D9900DDBDA8 /* LightGrayView.swift */,
+				8C8F89E326C80FD700DDBDA8 /* OrangeView.swift */,
+				8C8F89E826C8104700DDBDA8 /* RedView.swift */,
+				8C8F89F226C8109500DDBDA8 /* PinkView.swift */,
 				8CB0679425C934FC0045AEE6 /* Assets.xcassets */,
 				8CB0679625C934FC0045AEE6 /* LaunchScreen.storyboard */,
 				8CB0679925C934FC0045AEE6 /* Info.plist */,
+				8C8F89BA26C80BA200DDBDA8 /* Extension */,
 			);
 			path = LifeCycleDemo;
 			sourceTree = "<group>";
@@ -264,11 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB067DB25C939050045AEE6 /* NextViewController2.swift in Sources */,
-				8CB067C225C9356A0045AEE6 /* NextViewController1.swift in Sources */,
-				8CB067D025C936270045AEE6 /* StartViewController.swift in Sources */,
+				8C8F89AB26C8099F00DDBDA8 /* MainViewController.swift in Sources */,
 				8CB0678C25C934FA0045AEE6 /* AppDelegate.swift in Sources */,
+				8C8F89E426C80FD700DDBDA8 /* OrangeView.swift in Sources */,
 				8CB0678E25C934FA0045AEE6 /* SceneDelegate.swift in Sources */,
+				8C8F89CC26C80D8200DDBDA8 /* DarkGrayView.swift in Sources */,
+				8C8F89B626C80B8600DDBDA8 /* NSObjectProtocol+.swift in Sources */,
+				8C8F89C726C80C0000DDBDA8 /* BlackView.swift in Sources */,
+				8C8F89D726C80D9900DDBDA8 /* LightGrayView.swift in Sources */,
+				8C8F89F326C8109500DDBDA8 /* PinkView.swift in Sources */,
+				8C8F89E926C8104700DDBDA8 /* RedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
