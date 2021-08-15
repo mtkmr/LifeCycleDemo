@@ -1,4 +1,4 @@
 # LifeCycleDemo
-## ライフサイクル
+## Features
 - Viewの制約
 - Viewのレイアウト
